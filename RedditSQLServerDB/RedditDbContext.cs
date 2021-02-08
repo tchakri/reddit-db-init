@@ -7,7 +7,7 @@ namespace RedditSQLServerDB
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=YY193508;Database=RedditDB;Trusted_Connection=True;MultipleActiveResultSets=true;");
+            optionsBuilder.UseSqlServer(@"Server={ServerName};Database=RedditDB;Trusted_Connection=True;MultipleActiveResultSets=true;");
         }
 
         public DbSet<Post> Posts { get; set; }
