@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AuthTokenRetriever": {
+      "commandName": "Project",
+      "commandLineArgs": "8080 PyOrdoI-7gERLA -MsYdW8R_7Wr9qva-5_bJ0G4MMsXxQ"
+    }
+  }
+}
